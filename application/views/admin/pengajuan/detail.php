@@ -15,7 +15,7 @@
         <button type="submit" class="box__button">Upload</button>
     </div>
     <div class="box__uploading">Uploading&hellip;</div>
-    <div class="box__success">Selamat file anda telah terkirim! Mohon tunggu, Data akan segera kami proses.</div>
+    <div class="box__success">Selamat Pengajuan Pemohon telah anda setujui.</div>
     <div class="box__error">Error! <span></span>. <a href="<?= base_url("pengajuan/submit"); ?>" class="box__restart" role="button">Coba lagi!</a></div>
 </form>
 

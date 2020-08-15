@@ -22,7 +22,6 @@
   <!-- Custom styles for this template-->
 
   <link href="<?= base_url('assets') ?>/css/sb-admin-2.min.css" rel="stylesheet">
-   <link rel="stylesheet" type="text/css" href="<?= base_url("assets/css/"); ?>style.css">
     
   <link href="<?= base_url('assets') ?>/css/admin.css" rel="stylesheet">
 
@@ -38,8 +37,8 @@
 
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-        <div class="sidebar-brand-icon rotate-n-15">
-          <i class="fas fa-laugh-wink"></i>
+        <div class="sidebar-brand-icon ">
+          <i class="fas fa-university"></i>
         </div><?= $this->session->flashdata('message'); ?>
                     <?php foreach ($desa as $key => $value) : ?>
 
@@ -48,37 +47,7 @@
       <?php endforeach; ?>
       </a>
 
-      <!-- Divider -->
-
-
-      <!-- Heading -->
-      <!-- <div class="sidebar-heading">
-        CMS
-      </div> -->
-
-      <!-- Nav Item - Pages Collapse Menu -->
-      <!-- <li class="nav-item">
-        <a class="nav-link" href="<? //= base_url("admin/beranda") 
-                                  ?>">
-          <i class="fas fa-fw fa-tachometer-alt"></i>
-          <span>Beranda</span></a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="<? //= base_url("admin/sk") 
-                                  ?>">
-          <i class="fas fa-fw fa-file-signature"></i>
-          <span>Surat Keterangan</span></a>
-      </li>
-
-
-      <li class="nav-item">
-        <a class="nav-link" href="<? //= base_url("admin/sr") 
-                                  ?>">
-          <i class="fas fa-fw fa-file-signature"></i>
-          <span>Surat Rekomendasi</span></a>
-      </li> -->
-
+     
       <!-- Divider -->
       <hr class="sidebar-divider mt-2">
 
@@ -108,25 +77,13 @@
           <span>Panduan</span></a>
       </li>
 
-      <!-- Panduan, berisi tentang file-file contoh surat pengajuan untuk pengguna-->
-      <!-- <li class="nav-item <?= $active == 'persyaratan' ? "active" : ""; ?>">
-        <a class="nav-link" href="<?= base_url("admin/persyaratan") ?>">
-          <i class="fas fa-fw fa-book"></i>
-          <span>Persyaratan</span></a>
-      </li> -->
-
-      <!-- Panduan, berisi tentang file-file contoh surat pengajuan untuk pengguna-->
-    <!--   <li class="nav-item <?= $active == 'mekanisme' ? "active" : ""; ?>">
-        <a class="nav-link" href="<?= base_url("admin/mekanisme") ?>">
-          <i class="fas fa-fw fa-book"></i>
-          <span>Mekanisme</span></a>
-      </li> -->
+    
 
       <!-- Nav Item - Tables -->
       <li class="nav-item <?= $active == 'pengajuan' ? "active" : ""; ?>">
         <a class="nav-link" href="<?= base_url("admin/pengajuan") ?>">
           <i class="fas fa-fw fa-file-signature"></i>
-          <span>Permohonan pengajuan</span></a>
+          <span>Daftar pengajuan</span></a>
       </li>
 
       <!-- Sidebar Toggler (Sidebar) -->

@@ -1,4 +1,4 @@
-<h5>Daftar Pemohon</h5>
+<h5>Daftar Pengajuan</h5>
 <div class="list-group">
     <?php if ($pengajuan) : ?>
         <?php foreach ($pengajuan as $key => $value) : ?>
