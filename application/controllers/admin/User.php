@@ -45,7 +45,7 @@ class User extends CI_Controller
         
 
         $this->form_validation->set_rules('password', 'Password', 'trim|required');
-        $this->form_validation->set_rules('newpassword', 'Password Baru', 'trim|required|min_length[6]|matches[repassword]',);
+        $this->form_validation->set_rules('newpassword', 'Password Baru', 'trim|required|min_length[6]|matches[repassword]');
         $this->form_validation->set_rules('repassword', 'Kofirmasi Password', 'trim|required|min_length[6]|matches[newpassword]');
 
 
