@@ -31,18 +31,7 @@
 				event.initEvent("submit", true, false);
 				form.dispatchEvent(event);
 			};
-			triggerFormSubmits = function () {
-				const kategori = document.getElementById("fm_kategori");
-				if (kategori.value == 0 "") {
-					alert(
-						"Silahkan isi kategori dan keterangan dan upload ulang berkas anda!"
-					);
-				} else {
-					var event = document.createEvent("HTMLEvents");
-					event.initEvent("submit", true, false);
-					form.dispatchEvent(event);
-				}
-			};
+
 		// letting the server side to know we are going to make an Ajax request
 		var ajaxFlag = document.createElement("input");
 		ajaxFlag.setAttribute("type", "hidden");
