@@ -25,7 +25,7 @@
                     <div class="col-lg-12 profil-form ">
                         
                       
-                        <form class="user" action="<?= base_url("admin/user/changepassword"); ?>" method="post">
+                        <form class="user" action="<?= base_url("admin/profil/changepassword"); ?>" method="post">
                           <?= $this->session->flashdata('message'); ?>
                             <div class="form-group">
                                 <label for="oldPassword">Pasword Lama</label>
