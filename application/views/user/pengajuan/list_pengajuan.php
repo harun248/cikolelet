@@ -26,7 +26,7 @@
                         </div>
                     <?php endforeach; ?>
                 <?php else : ?>
-                    <div class="alert alert-primary">Belum ada pengajuan</div>
+                    <div class="alert alert-primary">Belum ada pengajuan baru</div>
                 <?php endif; ?>
             </div>
         </div>
